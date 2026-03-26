@@ -1,8 +1,10 @@
+import Navbar from './Navbar';
 function Modpacks() {
     return (
-        <div>
+        <>
+            <Navbar />
             <h1>Modpacks</h1>
-        </div>
+        </>
     )
 }
 export default Modpacks;
